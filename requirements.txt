@@ -1,9 +1,15 @@
+# Core Gemini model
 google-generativeai>=0.3.2
-ipywidgets>=8.0.0
-IPython>=8.0.0
-notebook>=6.5.0
+
+# Streamlit for web app
 streamlit>=1.35.0
 
-python-dotenv>=1.0.1
+# Notebook support (for Colab or VS Code)
+ipywidgets>=8.0.0
+IPython>=8.0.0
+
+# .env handling
+python-dotenv>=1.0.0
+
 
 
