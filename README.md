@@ -22,6 +22,10 @@ Generate creative, informative, or witty tweets in one click — powered by **Go
 
 ---
 
+📓 Original Colab Notebook
+This project was first created in Google Colab using ipywidgets for the UI and Gemini's API for content generation.
+
+📄 [View Original Notebook](https://github.com/Anjana-Varghese/tweet_generator/blob/main/colab-version/tweet_gen.ipynb)
 
 
 ## 🔧 How to Run Locally
