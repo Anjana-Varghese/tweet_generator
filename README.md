@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 4. Add .env file (local only)
 Create a .env file in the root folder:
-TOKEN=your-api-key-here
+Token=your-api-key-here
 🔐 Never share your .env file — it’s listed in .gitignore
 
 
