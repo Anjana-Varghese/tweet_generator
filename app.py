@@ -6,8 +6,9 @@ import streamlit as st
 # ✅ Load environment variables from .env file
 load_dotenv()
 
-# ✅ Read the key
-api_key = os.getenv("Token")
+# ✅ Try Streamlit secrets first, then fallback to .env
+api_key = st.secrets.get("TOKEN") or os.getenv("TOKEN")
+
 
 # ✅ Safety check
 if not api_key:
